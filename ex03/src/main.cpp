@@ -6,7 +6,7 @@
 /*   By: jschott <jschott@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/30 16:36:42 by jschott           #+#    #+#             */
-/*   Updated: 2024/02/01 12:53:20 by jschott          ###   ########.fr       */
+/*   Updated: 2024/08/08 12:44:50 by jschott          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,29 @@
 #define BLUE "\033[94m"
 #define MAGENTA "\033[35m"
 
+/**
+ * @brief Demonstrates the use of a magic materia system in C++.
+ * 
+ * This excerpt showcases a simulation of a magic materia system, inspired by RPG mechanics, where characters can equip and use magical
+ * materias. The system involves creating materias, learning them, equipping them to characters, and using them on other characters.
+ * 
+ * Key Components:
+ * - IMateriaSource: An interface for a source of materias, responsible for learning and creating materias.
+ * - MateriaSource: Concrete implementation of IMateriaSource, can learn and create specific materias like Ice and Cure.
+ * - AMateria: Abstract class representing a generic materia, with methods for use.
+ * - Ice, Cure: Concrete implementations of AMateria, representing specific types of materias.
+ * - ICharacter: An interface for characters that can equip and use materias.
+ * - Character: Concrete implementation of ICharacter, can equip materias and use them on other characters.
+ * 
+ * Main Functionality Demonstrated:
+ * 1. Constructors: Demonstrates creating a materia source, learning materias, and creating a character.
+ * 2. Create Materia: Shows how to create materias from the source and equip them to a character.
+ * 3. Use on a New Character: Illustrates using equipped materias on another character, including handling of invalid slots.
+ * 4. Deep Copy Character: Demonstrates deep copying a character along with their equipped materias.
+ * 
+ * This excerpt highlights object-oriented programming principles such as abstraction, encapsulation, and polymorphism. It also
+ * demonstrates memory management through dynamic allocation and the importance of deep copying in C++.
+ */
 void ft_tests()
 {
 	// Constructors
