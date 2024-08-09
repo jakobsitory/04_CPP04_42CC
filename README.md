@@ -5,7 +5,7 @@ This repository contains solutions to various C++ programming challenges from th
 ## **Modules**
 
 ### **ex00 - Polymorphism**
-The Polymorphism project involves creating a class hierarchy to demonstrate the concept of polymorphism in C++.
+A class hierarchy to demonstrate the concept of polymorphism in C++.
 
 **Key objectives included:**
 
@@ -14,7 +14,7 @@ The Polymorphism project involves creating a class hierarchy to demonstrate the 
 - Understanding the use of pointers and references to base class objects.
 
 ### **ex01 - I don’t want to set the world on fire**
-The I don’t want to set the world on fire project involves creating a class that simulates a fire-related scenario using polymorphism.
+A class that simulates a fire-related scenario using polymorphism.
 
 **Key objectives included:**
 
@@ -23,7 +23,7 @@ The I don’t want to set the world on fire project involves creating a class th
 - Managing resources and state within the class hierarchy.
 
 ### **ex02 - Abstract class**
-The Abstract class project involves creating an abstract base class and derived classes to demonstrate the use of abstract classes in C++.
+An abstract base class and derived classes to demonstrate the use of abstract classes in C++.
 
 **Key objectives included:**
 
@@ -32,7 +32,7 @@ The Abstract class project involves creating an abstract base class and derived 
 - Demonstrating the use of abstract classes and polymorphism.
 
 ### **ex03 - Interface & recap**
-The Interface & recap project involves creating interfaces and implementing them in derived classes, along with a recap of previous concepts.
+Interfaces and implementing them in derived classes, along with a recap of previous concepts.
 
 **Key objectives included:**
 
@@ -46,10 +46,11 @@ To install the project, follow these steps:
 
 1. Clone the repository: **`git clone git@github.com:jakobsitory/04_CPP04_42CC.git`**
 2. Navigate to the project directory: **`cd 04_CPP04_42CC`**
-3. Build the project: **`make`**
+3. Navigate to the excercise directory : **`cd ex00`**,  **`cd ex01`** ...
+4. Build the project: **`make`**
 
 ## **Usage**
-_Follow the on-screen instructions to add and search for contacts._
+_Follow the on-screen instructions to run program._
 ### **ex00 - ex02**
 ```bash
 ./AnimalFarm
